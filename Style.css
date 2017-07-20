@@ -1,1 +1,20 @@
-﻿
+﻿body {
+    background-color:#E1E8DB;
+}
+.nav {
+    font-family: 'Quicksand', sans-serif;
+}
+.nav {
+    margin-bottom: 0px;
+    background-color:#6A1525;
+    
+}
+.nav a {
+    color:black;
+}
+.nav a:hover {
+    background:none;
+}
+#bg {
+    width: 1200px; height:auto;
+}
