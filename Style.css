@@ -1,20 +1,47 @@
 ﻿body {
-    background-color:#E1E8DB;
+    background-color:#C1E8C3;
 }
-.nav {
+#nav {
     font-family: 'Quicksand', sans-serif;
-}
-.nav {
     margin-bottom: 0px;
-    background-color:#6A1525;
-    
+    background-color:#6A1525
 }
-.nav a {
-    color:black;
+#nav a {
+    text-decoration-color:black;
 }
-.nav a:hover {
+
+.row a:hover {
     background:none;
 }
 #bg {
-    width: 1200px; height:auto;
+    width:auto; height:400px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.navbar-collapse {
+    background-color:#E1E8DB;
+    opacity:15;
+
+}
+#bs-example-navbar-collapse-1 {
+    background-color:none;
+}
+.row.thumbnail {
+    border:none;
+    padding:5px;
+}
+a.thumbnail {
+    border:none;
+    background:none;
+    padding:5px;
+}
+.otherProducts {
+    margin:auto;
+    border:none;
+    padding:5px;
+}
+.otherProductsHeader {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration-color:lightslategray;
 }
